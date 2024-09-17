@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Calculadora de Gorjetas</string>
+    <string name="total_hint">Valor total da conta</string>
+    <string name="people_hint">Número de pessoas</string>
+    <string name="tip_10">10%</string>
+    <string name="tip_15">15%</string>
+    <string name="tip_20">20%</string>
+    <string name="tip_25">25%</string>
+    <string name="tip_30">30%</string>
+    <string name="calculate">Calcular</string>
+    <string name="result">Resultado</string>
+</resources>

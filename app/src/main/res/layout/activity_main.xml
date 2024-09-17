@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/totalAmountEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/total_hint"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/numberOfPeopleEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/people_hint"
+        android:inputType="number" />
+
+    <RadioGroup
+        android:id="@+id/tipPercentageGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/tip10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tip_10" />
+
+        <RadioButton
+            android:id="@+id/tip15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tip_15" />
+
+        <RadioButton
+            android:id="@+id/tip20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tip_20" />
+
+        <RadioButton
+            android:id="@+id/tip25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tip_25" />
+
+        <RadioButton
+            android:id="@+id/tip30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tip_30" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/calculate" />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/result"
+        android:textSize="18sp"
+        android:paddingTop="16dp" />
+</LinearLayout>
